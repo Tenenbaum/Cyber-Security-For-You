@@ -1,0 +1,149 @@
+/*
+	Please sign your name in the comments above each section you have worked on
+*/
+
+/*external stylesheets and links for import*/
+
+
+/*general*/
+
+body{
+
+}
+
+h1, h2, h3{
+
+}
+
+p{
+	
+}
+
+
+/*links*/
+
+a{
+	text-decoration: none;
+
+}
+
+a:hover{
+
+}
+
+a:active{
+
+}
+
+a:visited{
+
+}
+
+
+/*navigation and menus*/
+
+.navbar{
+
+}
+
+.navbar ul{
+	list-style-type: none;
+}
+
+.navbar ul li{
+	
+}
+
+
+
+/*headers*/
+
+
+header{
+
+}
+
+/*banners*/
+
+
+
+/*text content, e.g. articles*/
+
+.post{
+
+}
+
+.content-wrapper{
+
+}
+
+aside .toggle{
+
+}
+
+
+/*footers*/
+
+footer{
+
+}
+
+/*images and icons*/
+
+.img-sm{
+	
+}
+
+.im-med{
+	
+}
+
+.im-lg{
+	
+}
+
+.im-left{
+	
+}
+
+.im-right{
+	
+}
+
+.icon-sm{
+
+}
+
+.icon-med{
+
+}
+
+.icon-lg{
+
+}
+
+
+/*media queries for RSS*/
+
+@media only screen and (max-width: 1090px) {
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 720px){
+
+
+
+
+
+
+}
+
+
+
