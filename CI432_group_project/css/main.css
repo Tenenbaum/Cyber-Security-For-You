@@ -1,0 +1,310 @@
+/*
+	Please sign your name in the comments above each section you have worked on
+*/
+
+/*external stylesheets and links for import*/
+
+
+/*general*/
+
+
+
+html, body{
+	margin: 0 auto;
+	padding: 0;
+	font-size:1em;
+	font-family: 'Bubblegum Sans', cursive;
+	background-color:#336666;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width:90%;
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	background-color:#FFFF99;
+}
+
+body{
+	
+}
+
+main{
+	grid-column:1/4;
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	display:grid;	
+}
+
+h1, h2, h3{
+
+}
+
+p{
+	
+}
+
+ul{
+	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+}
+
+
+/*links*/
+
+a{
+	text-decoration: none;
+
+}
+
+a:hover{
+
+}
+
+a:active{
+
+}
+
+a:visited{
+
+}
+
+
+
+/*navigation and menus*/
+
+nav{
+	grid-column:1/4;
+	border-bottom:1px solid gray;
+}
+
+.navbar{
+
+}
+
+.navbar a:link{
+	color:black;
+}
+
+.navbar a:visited{
+	color:black;
+}
+
+.navbar ul{
+	margin-top:3%;
+	margin-bottom:3%;
+	display:block;
+	list-style-type: none;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.navbar ul li{
+	font-size:1.5em;
+	display:inline-block;
+	vertical-align:middle;
+	margin-left:2%;
+	padding:1%;
+	border-radius:1em;
+	width: 8%;
+}
+
+.navbar ul li:nth-child(1){
+	background-color:#339999;
+	margin-top:3%;
+}
+
+.navbar ul li:nth-child(2){
+	background-color:#FF3333;
+
+}
+
+.navbar ul li:nth-child(3){
+	background-color:#653399;
+	margin-top:3%;
+}
+
+.navbar ul li:nth-child(4){
+	padding-right:8%;
+
+}
+
+.navbar ul li:nth-child(4) img {
+	width:200%;
+	border-radius:50%;
+}
+
+
+.navbar ul li:nth-child(5){
+	background-color:#66CC66;
+	margin-top:2%;
+}
+
+.navbar ul li:nth-child(6){
+	background-color:#FFCC66;
+}
+
+.navbar ul li:nth-child(7){
+	background-color:#CC3366;
+	margin-top:3%;
+}
+
+/*headers*/
+
+
+header{
+	text-align:center;
+	grid-column:1/4;
+}
+
+/*banners*/
+
+
+
+/*text content, e.g. articles*/
+
+article h2{
+	color:#CC3366;
+	font-size:2em;
+}
+
+article p{
+	font-size:1.5em;
+}
+
+article li{
+	font-size:1.5em;
+}
+
+.content-wrapper{
+	grid-column:1/4;
+	text-align:center;
+}
+
+
+.iframe-container {
+  overflow: hidden;
+}
+
+
+#intro{
+	grid-column:1/4;
+	margin-left:10%;
+}
+
+#intro p{
+	font-size:2em;
+}
+
+
+/* cant get content to behave with grids */
+#home_vid1{
+	grid-column:1/2;
+	margin-left:13%;
+}
+
+#homeFOD{
+	grid-column:2/4;
+	display:inline;
+	background-color: #66CC66;
+	text-align:center;
+	margin-left:15%;
+	width: 65%;
+
+}
+
+#homeFOD h2{
+	margin: 0 auto;
+	padding: 0;
+	padding-top:2%;
+	padding-bottom:2%;
+	display:block;
+	border:1px solid black;
+	background-color:white;
+	width:100%;
+}
+
+#homeFOD p{
+	margin: 0 auto;
+	padding: 0;
+	font-size:1.5em;
+}
+
+
+aside .toggle{
+	grid-column:1/4;
+}
+
+
+/*footers*/
+
+footer{
+	grid-column:1/4;
+	color:gray;
+	text-align:center;
+}
+
+footer ul{
+	list-style-type:none;
+}
+
+/*images and icons*/
+
+.img-sm{
+	
+}
+
+.im-med{
+	
+}
+
+.im-lg{
+	
+}
+
+.im-left{
+	
+}
+
+.im-right{
+	
+}
+
+.icon-sm{
+
+}
+
+.icon-med{
+
+}
+
+.icon-lg{
+
+}
+
+
+/*media queries for RSS*/
+
+@media only screen and (max-width: 1090px) {
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 720px){
+
+
+
+
+
+
+}
+
+
+
