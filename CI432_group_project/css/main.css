@@ -170,7 +170,7 @@ header{
 
 .tab{
 	overflow: hidden;
-	position: relative;
+	position: absolute;
 	left: 15%;
 	/*margin-left: 20%;*/
 }
@@ -207,7 +207,7 @@ header{
 
 .tabcontent {
   display: none;
-  padding: 2em 6em; 
+  padding: 6em 6em; 
   border: 2px inset #fff; 
 } 
 
@@ -412,7 +412,9 @@ article img {
 @media only screen and (max-width: 1090px) {
 
 
-
+.tab{
+	right: 10%;
+}
 
 
 
@@ -422,7 +424,16 @@ article img {
 
 @media screen and (max-width: 720px){
 
+.wrapper{
+	width: 100%;
+}
 
+
+.tabcontent {
+  display: none;
+  padding: 10em 2em; 
+  border: 2px inset #fff; 
+} 
 
 
 
