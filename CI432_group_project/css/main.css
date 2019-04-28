@@ -110,6 +110,10 @@ nav{
 	width: 8%;
 }
 
+.navbar ul li a:hover{
+	color: white;
+}
+
 .navbar ul li:nth-child(1){
 	background-color:#339999;
 	margin-top:3%;
@@ -162,24 +166,120 @@ header{
 
 
 
+/*tabs*/
+
+.tab{
+	overflow: hidden;
+	margin-left: 20%;
+}
+
+.tablink{
+	background-color: inherit;
+	padding: 3em;
+}
+
+.tab button{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+	height: 35px;
+	top: 0;
+	transition: top ease 0.5s;
+	border:1px solid black;
+	font-family: 'Bubblegum Sans', cursive;
+	font-size:24px;
+	text-align:center;
+	align-items:middle;
+}
+
+.tab button:hover {
+	color:white;
+}
+
+
+.tab button.active {
+  border: 2px solid #fff;
+}
+
+.tabcontent {
+  display: none;
+  padding: 2em 6em; 
+  border: 2px inset #fff; 
+} 
+
+.tab button:nth-child(1){
+	background-color:#339999;
+}
+
+.tab button:nth-child(2){
+	background-color:#FF3333;
+}
+
+.tab button:nth-child(3){
+	background-color:#653399;
+}
+
+.tab button:nth-child(4){
+	background-color:#FFCC66;
+}
+
+.tab button:nth-child(5){
+	background-color:#66CC66;
+}
+
+.tab button:nth-child(6){
+	background-color:#CC3366;
+}
+
+.tab button:nth-child(7){
+	background-color:#FF9A9F;
+}
+
+.tab button:nth-child(8){
+	background-color:#E9A125;
+}
+
+.tab button:nth-child(9){
+	background-color:#24549A;
+}
+
+
+
+
+/*let the 1st post be displayed by default*/
+#ad_post_01{
+	display: block;
+}
+
+
+
 /*text content, e.g. articles*/
 
 article h2{
 	color:#CC3366;
-	font-size:2em;
+	font-size:32px;
 }
 
-article p{
-	font-size:1.5em;
+article h3{
+	font-size:24px;
 }
 
-article li{
-	font-size:1.5em;
+article p, li{
+	font-size:24px;	
 }
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 .content-wrapper{
 	grid-column:1/4;
-	text-align:center;
+	text-align:center;	
 }
 
 
@@ -251,17 +351,38 @@ footer ul{
 
 /*images and icons*/
 
-.img-sm{
-	
+/* .img-wrapper { */
+  /* position: relative; */
+  /* padding-top: 56.25%;  */
+
+/* } */
+
+article img {
+  /* display:inline-block; */
+  /* left: 0; */
+  /* top: 0; */
+  max-width: 100%;
+  max-height: 100%;
+  height: auto; 
 }
 
-.im-med{
-	
+
+#ad_post_02 img{
+	height: 50%;
+	width:50%;
 }
 
-.im-lg{
-	
+#ad_post_03 img{
+	height: 50%;
+	width:50%;
 }
+
+#ad_post_04 img{
+	height: 50%;
+	width:50%;
+	padding-bottom:1%;
+}
+
 
 .im-left{
 	
