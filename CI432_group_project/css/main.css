@@ -162,24 +162,68 @@ header{
 
 
 
+/*tabs*/
+
+.tab{
+	overflow: hidden;
+}
+
+.tablink{
+	background-color: inherit;
+	padding: 3em;
+}
+
+.tab button{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+	height: 35px;
+	top: 0;
+	transition: top ease 0.5s;
+
+}
+
+.tab button:hover {
+	top: -10px;	
+	padding-top: 10px;
+	padding-bottom: 15px;
+  	background-color: #ddd;
+}
+
+.tab button.active {
+  border: 2px solid #fff;
+}
+
+.tabcontent {
+  display: none;
+  padding: 2em 6em; 
+  border: 2px inset #fff; 
+} 
+
+/*let the 1st post be displayed by default*/
+#ad_post_01{
+	display: block;
+}
+
+
+
 /*text content, e.g. articles*/
 
 article h2{
 	color:#CC3366;
-	font-size:2em;
+	font-size:24px;
 }
 
-article p{
-	font-size:1.5em;
+article p, li{
+	font-size:18px;	
 }
 
-article li{
-	font-size:1.5em;
-}
 
 .content-wrapper{
 	grid-column:1/4;
-	text-align:center;
+	text-align:center;	
 }
 
 
@@ -251,16 +295,19 @@ footer ul{
 
 /*images and icons*/
 
-.img-sm{
-	
+.img-wrapper {
+  position: relative;
+  padding-top: 56.25%; 
+
 }
 
-.im-med{
-	
-}
-
-.im-lg{
-	
+ article img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto; 
 }
 
 .im-left{
