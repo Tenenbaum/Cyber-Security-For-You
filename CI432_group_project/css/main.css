@@ -170,7 +170,9 @@ header{
 
 .tab{
 	overflow: hidden;
-	margin-left: 20%;
+	position: relative;
+	left: 15%;
+	/*margin-left: 20%;*/
 }
 
 .tablink{
