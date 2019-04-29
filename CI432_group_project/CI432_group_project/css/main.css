@@ -171,7 +171,7 @@ header{
 .tab{
 	overflow: hidden;
 	position: absolute;
-	left: 15%;
+	left: 20%;
 	/*margin-left: 20%;*/
 }
 
@@ -439,6 +439,19 @@ article img {
 
 
 /*media queries for RSS*/
+
+@media only screen and (max-width: 1920px) {
+
+
+.tab{
+	left: 15%;
+}
+
+
+
+
+}
+
 
 @media only screen and (max-width: 1090px) {
 
