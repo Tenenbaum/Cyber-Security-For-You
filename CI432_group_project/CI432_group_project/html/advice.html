@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
 		<script src="../jscript/scripts.js"></script> 
+		
 	</head>
 	<body>
 		<div class = "wrapper">
@@ -30,10 +31,10 @@
 			<!-- <div class = "content-wrapper"> -->
 			
 				<div class="tab">
-				  <button class="tablinks" onclick="openTab(event, 'ad_post_01')">Privacy</button>
-				  <button class="tablinks" onclick="openTab(event, 'ad_post_02')">Online Hazards</button>
-				  <button class="tablinks" onclick="openTab(event, 'ad_post_03')">Updates</button>
-				  <button class="tablinks" onclick="openTab(event, 'ad_post_04')">Cyber Bullying</button>
+				  <button class="tablinks" onclick="openTab(event, 'ad_post_01')" id = "btn1">Privacy</button>
+				  <button class="tablinks" onclick="openTab(event, 'ad_post_02')" id = "btn2">Online Hazards</button>
+				  <button class="tablinks" onclick="openTab(event, 'ad_post_03')" id = "btn3">Updates</button>
+				  <button class="tablinks" onclick="openTab(event, 'ad_post_04')" id = "btn4">Cyber Bullying</button>
 				</div>
 				<div class = "content-wrapper">
 				<!-- begin main tab 1 -->
@@ -226,10 +227,11 @@
 					<h2>Accept no substitutes!</h2>
 						<p>
 							When downloading software you’ve found on the internet, it’s really important that you make sure the website you’re using is a valid service provider. The easiest way to spot a valid site is to look at the address bar at the top of your screen, if the URL begins with “https://www.validCompanyName.com”, then the site is likely safe. Safe sites often have a padlock symbol to the left of the site address, which means that any information your device exchanges with the website is encrypted - this is extra, extra safe. 
+						</p>	
 							<div class = "img-wrapper" >
 								<img src = "../images/advice_HTPS_address.png" alt = "" class = "center">
 							</div>				
-						</p>
+						
 						
 						<p>
 							Be on the look-out for fake sites that have names like “Appl3.com”, which try to trick people into downloading what might appear to be genuine Apple software. You can usually spot fake download sites by their lack of trademark logos, incorrect or missing contact details, or even typos and spelling mistakes. Remember that if you aren’t completely sure that a site is genuine, you should back out of there pronto. 
@@ -295,10 +297,11 @@
 					<h2>Attention! Your apps need updating</h2>
 						<p>
 							Keep your software up to date. Those notifications that keep popping up to tell you about the latest updates available for your device? Consider installing them. Frequently updating your software to the latest version not only fixes bugs in your favourite mobile games, but also gets rid of weaknesses that hackers can exploit to gain access to your device. If you don’t want automatic updates slowing down your device while in use, consider letting them run while you’re asleep. Not all updates will prompt you that they are available, so be sure to check in with <a href = "https://www.apple.com/uk/ios/app-store/">Apple's App Store</a>, <a href = "https://play.google.com/store?hl=en_GB">Google Play</a>, or look for updates online (<a href = "">see our advice on downloads</a>).
+						</p>	
 							<div class = "img-wrapper">
 								<img src = "../images/update_app_pic.jpeg" alt = "" class = "center">
 							</div>
-						</p>
+						
 						
 						<aside class = "toggle">
 							<h3>References</h3>
@@ -411,5 +414,10 @@
 			</footer>
 		</div>
 	</body>
-
+	<script>
+		// note: this doesn't work in IE or Edge,
+			if(window.sessionStorage && sessionStorage.getItem("currentBtn")){
+				document.getElementById(window.sessionStorage.getItem("currentBtn")).click();
+			}
+	</script>
 </html>

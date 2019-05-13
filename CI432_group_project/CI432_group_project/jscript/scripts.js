@@ -1,10 +1,12 @@
 //tab control
 
+
 function openTab(evt, tabName){
 
 var i, tabcontent, tablinks;
 	
 tabcontent = document.getElementsByClassName("tabcontent");
+
 
 for (let i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
@@ -16,5 +18,10 @@ for (let i = 0; i < tabcontent.length; i++) {
   }
 
   document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
+  evt.currentTarget.className += " active"; 
+
+  if(window.sessionStorage){
+  	  sessionStorage.setItem("currentBtn", evt.currentTarget.id);
+  } 
+
 }

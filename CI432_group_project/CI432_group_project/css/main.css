@@ -226,6 +226,11 @@ header{
 
 } 
 
+/*display 1st post by default*/
+#ad_post_01{
+	display: block;
+}
+
 .tab button:nth-child(1){
 	background-color:#339999;
 }
@@ -260,14 +265,6 @@ header{
 
 .tab button:nth-child(9){
 	background-color:#24549A;
-}
-
-
-
-
-/*let the 1st post be displayed by default*/
-#ad_post_01{
-	display: block;
 }
 
 
