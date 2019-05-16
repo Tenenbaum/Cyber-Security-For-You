@@ -188,6 +188,14 @@ header{
 	color:#653399;
 }
 
+#sitesheader h1{
+	color:#66CC66;
+}
+
+#glossaryheader h1{
+	color:#FFCC66;
+}
+
 /*banners*/
 
 
@@ -281,10 +289,14 @@ article p, li{
 	font-size:32px;	
 }
 
-article li{
+article ul li{
 	text-align:center;
 	list-style-type:square;
 	list-style-position:inside;
+}
+
+article ol li{
+		list-style-position:inside;
 }
 
 img.center {
@@ -418,11 +430,19 @@ aside .toggle{
 	
 }
 
+#references{
+	grid-column:1/4;
+	text-align:center;
+}
+
+#references ol li{
+	
+}
 
 /*footers*/
 
 footer{
-	margin-top:20%;
+	margin-top:5%;
 	padding:3%;
 	background-color:#282828;
 	text-align:center;
@@ -517,6 +537,13 @@ article img {
 	grid-column:3/4;
 	width:55%;
 
+}
+
+#glossarycol{
+	grid-column:1/4;
+	padding:4%;
+	font-size:3em;
+	text-align:left;
 }
 
 #privacyTypes{
