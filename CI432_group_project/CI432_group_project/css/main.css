@@ -364,9 +364,8 @@ iframe {
 	text-align:center;
 	width:100%;
 	height:80%;
-	left: 40%;
-	top: 10%;
-	
+	left: 24%;
+	top: 3;	
 }
 
 #homeFOD h2{
@@ -576,10 +575,10 @@ article img {
 	}
 
 	#home_vid{
-		left:10%;
+		left:5%;
 		margin-top:10%;
 		display:block;
-		width:160%;
+		width:120%;
 		height:100%;
 	}
 
@@ -587,6 +586,7 @@ article img {
 	#homeFOD{
 		grid-column: 1/4;
 		width: 35%;
+		top: 0;
 		left:60%;
 		height:100%;
 	}
@@ -595,12 +595,6 @@ article img {
 		font-size:1.2em;
 	}
 
-
-/*#citizensCont{
-	grid-row: 4/4;
-	margin: auto;
-	padding:0;
-}*/
 
 #homeFOD h2{
 		font-size:2em;
