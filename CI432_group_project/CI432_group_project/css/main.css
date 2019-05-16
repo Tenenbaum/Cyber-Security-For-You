@@ -130,6 +130,7 @@ nav{
 .navbar ul li:nth-child(1){
 	background-color:#339999;
 	margin-top:1%;
+	padding-right:1%;
 }
 
 .navbar ul li:nth-child(2){
@@ -195,6 +196,9 @@ header{
 	color:#FFCC66;
 }
 
+#aboutheader h1, h2{
+	color:#CC3366;
+}
 
 blockquote{
 	font-size:2em;
@@ -208,7 +212,7 @@ blockquote{
 	position:absolute;
 	display:flex;
 	justify-content:center;
-	padding:0;
+	padding:0 auto;
 	width:90%;
 	overflow:hidden;
 	border-bottom:1px solid #282828;
@@ -233,6 +237,7 @@ blockquote{
 	font-family: 'Bubblegum Sans', cursive;
 	font-size: 1.5em;
 	text-align:center;
+	align-items:middle;
 }
 
 .tab button:hover {
@@ -364,8 +369,9 @@ iframe {
 	text-align:center;
 	width:100%;
 	height:80%;
-	left: 24%;
-	top: 3;	
+	left: 40%;
+	top: 10%;
+	
 }
 
 #homeFOD h2{
@@ -433,7 +439,7 @@ footer{
 	padding:3%;
 	background-color:#282828;
 	text-align:center;
-	border-top:1px;
+	border-top:1px solid #282828;
 }
 
 footer ul{
@@ -444,8 +450,18 @@ footer a{
 	color:white;
 }
 
+/*images and icons*/
+
+/* .img-wrapper { */
+  /* position: relative; */
+  /* padding-top: 56.25%;  */
+
+/* } */
 
 article img {
+  /* display:inline-block; */
+  /* left: 0; */
+  /* top: 0; */
   max-width: 100%;
   max-height: 100%;
   height: auto; 
@@ -461,7 +477,7 @@ article img {
 	color:#6B3232;
 	display:flex;
 	justify-content:center;
-	padding: 0;
+	padding: 0 auto;
 	width:90%;
 	left:50%;
 	top:50%;
@@ -529,11 +545,19 @@ article img {
 	font-size:3em;
 }
 
-
+#aboutart{
+	padding-left:20%;
+	padding-right:20%;
+	text-align:center;
+}
 
 
 
 @media only screen and (max-width: 1090px) {
+	
+	.navbar ul li{
+		padding:0.5%;
+	}
 
 	body{
 		font-size:2vw;
@@ -545,16 +569,15 @@ article img {
 
 
 	.navbar ul{
-		font-size:1em;
+		font-size:0.8em;
 	}
 
 	.navbar ul li:nth-child(1){
-		padding-right: 6%;
 	}
 
 
 	.navbar ul li:nth-child(6){
-		padding-right: 3%;
+
 	}
 
 	.mobile{
@@ -575,10 +598,10 @@ article img {
 	}
 
 	#home_vid{
-		left:5%;
+		left:10%;
 		margin-top:10%;
 		display:block;
-		width:120%;
+		width:160%;
 		height:100%;
 	}
 
@@ -586,7 +609,6 @@ article img {
 	#homeFOD{
 		grid-column: 1/4;
 		width: 35%;
-		top: 0;
 		left:60%;
 		height:100%;
 	}
@@ -595,8 +617,7 @@ article img {
 		font-size:1.2em;
 	}
 
-
-#homeFOD h2{
+	#homeFOD h2{
 		font-size:2em;
 	}
 
@@ -615,6 +636,10 @@ article img {
 
 		font-size:6vw;
 
+	}
+	
+	#aboutart{
+		padding:5%;
 	}
 
 
@@ -796,6 +821,14 @@ article img {
 	font-size:3em;
 	}
 
+
+	#aboutart{
+		padding:1%;
+	}
+	
+	#aboutheader h2{
+		font-size:3em;
+	}
 
 }
 
